@@ -7,5 +7,8 @@
       "name": "Troia",
       "email": "vadym.queensoft@gmail.com"
     }
-  ]
+  ],
+  "require": {
+    "php": "^8.0"
+  }
 }
