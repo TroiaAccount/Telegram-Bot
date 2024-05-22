@@ -1,0 +1,14 @@
+{
+  "name": "TroiaAccount/Telegram-Bot",
+  "description": "Проект чисто для себя",
+  "license": "MIT",
+  "authors": [
+    {
+      "name": "Troia",
+      "email": "vadym.queensoft@gmail.com"
+    }
+  ],
+  "require": {
+    "php": ">=8.3"
+  },
+}
