@@ -19,7 +19,6 @@ class Bot
         curl_setopt($ch, CURLOPT_RETURNTRANSFER, 1);
         curl_setopt($ch, CURLOPT_POSTFIELDS, http_build_query($data));
         $response = curl_exec($ch);
-        file_put_contents('query-response.json', $response);
         return json_decode($response);
     }
 
@@ -63,7 +62,6 @@ class Bot
             $buttons = [$buttons];
         }
         $keyboard = ['inline_keyboard' => [$buttons]];
-        file_put_contents('keyboard.json', json_encode($keyboard));
         return json_encode($keyboard);
     }
 
