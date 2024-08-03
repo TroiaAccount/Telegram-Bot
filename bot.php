@@ -1,5 +1,7 @@
 <?php
 
+namespace TroiaAccount\TelegramBot;
+
 class Bot
 {
 
