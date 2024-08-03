@@ -1,13 +1,19 @@
 {
-  "name": "troia-account/telegram-bot",
+  "name": "TroiaAccount/Bot",
   "description": "Проект чисто для себя",
   "license": "MIT",
+    "type": "library",
   "authors": [
     {
       "name": "Troia",
       "email": "vadym.queensoft@gmail.com"
     }
   ],
+  "autoload": {
+        "psr-4": {
+            "TroiaAccount\\Bot\\": "src/"
+        }
+    },
   "require": {
     "php": "^8.3.6"
   },
