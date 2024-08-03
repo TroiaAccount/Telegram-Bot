@@ -28,14 +28,5 @@
         "psr-4": {
             "TroiaAccount\\Bot\\": "src"
         }
-    },
-    "autoload-dev": {
-     
-    },
-    "config": {
-        "optimize-autoloader": true,
-        "preferred-install": "dist",
-        "sort-packages": true,
-        "process-timeout": 3600
-    },
+    }
 }
