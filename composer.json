@@ -1,24 +1,41 @@
 {
     "name": "troia-account/bot",
-    "description": "Проект чисто для себя",
-    "license": "MIT",
     "type": "library",
+    "description": "PHP Telegram bot",
+    "keywords": ["telegram", "bot", "api"],
+    "license": "MIT",
+    "homepage": "https://github.com/TroiaAccount/Telegram-Bot",
+    "support": {
+        "issues": "https://github.com/TroiaAccount/Telegram-Bot/issues",
+        "source": "https://github.com/TroiaAccount/Telegram-Bot"
+    },
     "authors": [
         {
             "name": "Troia",
-            "email": "vadym.queensoft@gmail.com"
-        }
+            "email": "vadym.queensoft@gmail.com",
+            "homepage": "https://github.com/TroiaAccount/Telegram-Bot",
+            "role": "Developer"
+        },
     ],
+    "require": {
+        "php": "^8.1",
+        "ext-pdo": "*",
+        "ext-curl": "*",
+        "ext-json": "*",
+        "ext-mbstring": "*",
+    },
     "autoload": {
         "psr-4": {
-            "TroiaAccount\\Bot\\": "src/"
+            "TroiaAccount\\Bot\\": "src"
         }
     },
-    "require": {
-        "php": "^8.3.6",
-         "troia-account/telegram-bot": "1.0.0"
+    "autoload-dev": {
+     
     },
-    "minimum-stability": "dev",
-    "prefer-stable": false,
-    "version": "1.0.0"
+    "config": {
+        "optimize-autoloader": true,
+        "preferred-install": "dist",
+        "sort-packages": true,
+        "process-timeout": 3600
+    },
 }
