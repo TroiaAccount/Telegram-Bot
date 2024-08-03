@@ -19,6 +19,6 @@
          "troia-account/telegram-bot": "1.0.0"
     },
     "minimum-stability": "dev",
-    "prefer-stable": true,
+    "prefer-stable": false,
     "version": "1.0.0"
 }
