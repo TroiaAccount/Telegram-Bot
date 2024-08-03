@@ -1,22 +1,23 @@
 {
-  "name": "troia-account/bot",
-  "description": "Проект чисто для себя",
-  "license": "MIT",
+    "name": "troia-account/bot",
+    "description": "Проект чисто для себя",
+    "license": "MIT",
     "type": "library",
-  "authors": [
-    {
-      "name": "Troia",
-      "email": "vadym.queensoft@gmail.com"
-    }
-  ],
-  "autoload": {
+    "authors": [
+        {
+            "name": "Troia",
+            "email": "vadym.queensoft@gmail.com"
+        }
+    ],
+    "autoload": {
         "psr-4": {
             "TroiaAccount\\Bot\\": "src/"
         }
     },
-  "require": {
-    "php": "^8.3.6"
-  },
-  "minimum-stability": "dev",
-  "prefer-stable": true
+    "require": {
+        "php": "^8.3.6"
+    },
+    "minimum-stability": "dev",
+    "prefer-stable": true,
+    "version": "1.0.0"
 }
